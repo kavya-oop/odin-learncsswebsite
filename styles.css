@@ -1,0 +1,76 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-flow: column nowrap;
+    flex: auto;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar, .content-one, .content-two, .content-three, .content-four, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    flex-direction: row;
+    min-height: 30px;
+    padding: 20px;
+    background-color: #e66b60;
+    color: beige;
+    justify-content: space-between;
+}
+
+.navbar-links {
+    display: flex;
+    font-size: 10px;
+    gap: 12px;
+}
+
+.content-one {
+    flex-direction: row;
+    background-color: #e66b60;
+    color: beige;
+    padding: 80px;
+    gap: 10px;
+}
+.button-one {
+    background-color: beige;
+    border: 0px;
+    color: black;
+    padding: 3px;
+}
+.low-contrast-p{
+    color: antiquewhite;
+}
+.one-img {
+    max-width: 300px;
+    flex: 0 1 auto;
+}
+
+.content-two {
+    flex-direction: column;
+
+}
+.two-images{
+    display: flex;
+    padding: 0px 100px;;
+}
+.img-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-shrink: 1;
+}
+.img-card-img{
+    max-width: 150px;
+    flex: 0 1 auto;
+}
