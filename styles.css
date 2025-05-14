@@ -60,7 +60,8 @@ ul {
 }
 .two-images{
     display: flex;
-    padding: 0px 100px;;
+    padding: 0px 100px;
+    gap: 10px;
 }
 .img-card{
     display: flex;
@@ -73,4 +74,48 @@ ul {
 .img-card-img{
     max-width: 150px;
     flex: 0 1 auto;
+}
+
+.content-three {
+    background-color: rgb(196, 240, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three-container {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.quote-teller {
+    align-self: flex-end;
+}
+
+
+.four-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e66b60;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+    background-color: rgb(196, 240, 246);
 }
